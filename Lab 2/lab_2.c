@@ -175,7 +175,6 @@ void multiply(int matrix_size, int MAX_THREADS) {
     GET_TIME(finish);
     
     elapsed = finish - start;
-    // printf("Liberação de recursos: %lf segundos \n", elapsed);
     total_execution_time += elapsed;
 
     printf("Tempo total conconrrente: %lf \n\n", total_execution_time);
